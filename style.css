@@ -77,7 +77,7 @@ body {
 .home-main {
 
     background-color: #333; 
-    background-image: url('../images/bg.jpg');
+    background-image: url('images/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -300,23 +300,23 @@ body {
 }
 
 .photo-box1{
-    background-image: url(/Images/Product1.heic);
+    background-image: url(../Images/Product1.heic);
     background-size: cover;
     background-position: center;
     
 }
 .photo-box2{
-    background-image: url(/Images/Product2.jpg);
+    background-image: url(../Images/Product2.jpg);
     background-size: cover;
     background-position: center;
 }
 .photo-box3{
-    background-image: url(/Images/Product3.webp);
+    background-image: url(../Images/Product3.webp);
     background-size: cover;
     background-position: center;
 }
 .photo-box4{
-    background-image: url(/Images/Product4.heic);
+    background-image: url(../Images/Product4.heic);
     background-size: cover;
     background-position: center;
 }
