@@ -5,14 +5,14 @@ $(document).ready(function () {
     const aboutBox = $(".about-content-panel");
 
     if($(window).width() > 768){
-        aboutBox.css("display", "block").animate({right: "0px"})
-        photoSmallRight.delay(300).css("display", "block").animate({top: "0px"})
-        photoSpanBottom.delay(300).css("display", "block").animate({top: "0px"})
-        photoSmallLeft.delay(600).css("display", "block").animate({left: "0px"})
+        aboutBox.show().animate({right: "0px"})
+        photoSmallRight.delay(300).show().animate({top: "0px"})
+        photoSpanBottom.delay(300).show().animate({top: "0px"})
+        photoSmallLeft.delay(600).show().animate({left: "0px"})
     } else{
-        photoSmallLeft.css("display", "block").animate({left: "0px"})
-        photoSmallRight.delay(300).css("display", "block").animate({left: "0px"})
-        photoSpanBottom.delay(600).css("display", "block").animate({top: "0px"})
-        aboutBox.delay(800).css("display", "block").animate({top: "0px"})
+        photoSmallLeft.show().animate({left: "0px"})
+        photoSmallRight.delay(300).show().animate({left: "0px"})
+        photoSpanBottom.delay(600).show().animate({top: "0px"})
+        aboutBox.delay(800).show().animate({top: "0px"})
     }
 });
